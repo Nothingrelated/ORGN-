@@ -324,8 +324,8 @@
 
 
   
-<div class="border-4 border-[#ffcf40] w-full bg-[#000000a3] h-fit rounded-lg">
-    <div class="shadow-lg p-2 border-t-transparent border-t-4 border-l-4 border-l-transparent border-transparent-500  text-[#ffcf40] text-center rounded-lg">
+<div class=" border-2 border-[#ffcf40] w-full bg-[#000000a3] h-fit rounded-lg" style="box-shadow: 0 0 30px #00FFFF;">
+    <div class="shadow-lg p-2 border-t-transparent border-t-4 border-l-4 border-l-transparent border-transparent-500  text-[#fff1bc] text-center rounded-lg">
     <div class="p-2">
         <div>
             <h2 class="text-3xl">{info.displayName}</h2>

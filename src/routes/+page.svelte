@@ -86,8 +86,8 @@
     }
 }
 </style>
-<div class="mb-8 text-center">
-    <img src="banner.png" class="mx-auto h-108 mb-2" alt="ORGN logo" />   
+<div class="mb-8 text-center" >
+    <img src="banner.png" class="mx-auto h-80 mb-2" alt="ORGN logo" />   
 </div> 
 <div class="text-white my-8 text-center grid grid-cols-1 md:grid-cols-4 gap-2 ">
     <!-- Box 1 -->
@@ -178,13 +178,12 @@
 
 
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-    {#each farms as farm}
-        {#if !farm.decomissioned}
-            <FarmBox info={farm} on:addToTVL={addToTVL} />
-        {/if}
+<div id="farmBoxesContainer" class="grid grid-cols-1 md:grid-cols-3 gap-4 hidden">
+    {#each farms as farm}        
+        <FarmBox info={farm} on:addToTVL={addToTVL} />        
     {/each}
 </div>
+
 
 
     
