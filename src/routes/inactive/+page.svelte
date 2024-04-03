@@ -98,12 +98,16 @@ localStorage.setItem('totalTVL', totalTVL);
     }
 }
 </style>
-
-
-
-<div class="mb-8 text-center" >
-    <img src="banner.png" class="mx-auto h-80 mb-2" alt="ORGN logo" />   
-</div> 
+<div class="mx-auto text-center w-full md:w-fit space-x-0 md:space-x-2 space-y-1 md:space-y-0 flex flex-col md:flex-row" style="box-shadow: 0 0 20px #00FFFF;">
+    <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center text-[#ffcf40] text-lg">
+        <a 
+            href="/" 
+            class="block border-b-4 border-r-4 border-transparent border-t-transparent border-t-4 border-l-4 border-l-transparent p-4 text-s text-[#ffcf40]">
+            Home >
+        </a>
+        </div>
+    </div>
+    <br>
 <div class="text-white my-8 text-center grid grid-cols-1 md:grid-cols-4 gap-2 ">
     <!-- Box 1 -->
     
@@ -123,19 +127,8 @@ localStorage.setItem('totalTVL', totalTVL);
     </div>
 </div>
 
-<div class="flex justify-center items-center ">
-    <div class="text-center mt-8 flex flex-cols space-x-1">
-        <div class="border-2 border-[#00FFFF] bg-[#000000a3] rounded w-full md:w-64">
-            <a 
-                href="/" 
-                class="block border-b-4 border-r-4 border-transparent border-t-transparent border-t-4 border-l-4 border-l-transparent p-4 text-s text-[#ffcf40]">
-                Home >
-            </a>
-        </div>
-    </div>
-</div>
 <br>
-<br>
+
 
 
 
