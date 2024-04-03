@@ -178,7 +178,7 @@
 
 
 
-<div id="farmBoxesContainer" class="grid grid-cols-1 md:grid-cols-3 gap-4 hidden">
+<div id="farmBoxesContainer" class="grid grid-cols-1 md:grid-cols-3 gap-4 hidden lg:hidden">
     {#each farms as farm}        
         <FarmBox info={farm} on:addToTVL={addToTVL} />        
     {/each}
