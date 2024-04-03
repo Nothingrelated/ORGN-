@@ -209,7 +209,7 @@ function toggleDropdown() {
         </a>
         <div class="mx-2">
             &copy; Copyright <strong class="text-[#ffcf40]">
-                Oregan Money
+                Oregon Money
             </strong>
             <span class="mx-1">&bull;</span> <!-- Bullet separator -->
             All Rights Reserved
