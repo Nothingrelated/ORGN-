@@ -99,11 +99,11 @@ localStorage.setItem('totalTVL', totalTVL);
 }
 </style>
 <div class="mx-auto text-center w-full md:w-fit space-x-0 md:space-x-2 space-y-1 md:space-y-0 flex flex-col md:flex-row" style="box-shadow: 0 0 20px #00FFFF;">
-    <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center text-[#ffcf40] text-lg">
+    <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center text-[#ffcf40] text-xlg">
         <a 
             href="/" 
             class="block border-b-4 border-r-4 border-transparent border-t-transparent border-t-4 border-l-4 border-l-transparent p-4 text-s text-[#ffcf40]">
-            Home >
+            Home 
         </a>
         </div>
     </div>
