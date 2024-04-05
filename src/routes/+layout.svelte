@@ -22,6 +22,7 @@
     import ERS_LOGO2 from "$lib/assets/astro.png";
     import BUY_LOGO from "$lib/assets/buy.png";
     import MINER_LOGO from "$lib/assets/miners.png";
+    import Staking_LOGO from "$lib/assets/staking.png";
     import CHART_LOGO from "$lib/assets/chart.png";
     import CONNECT_LOGO from "$lib/assets/connect.png";
     import DISCONNECT_LOGO from "$lib/assets/disconnect.png";
@@ -98,12 +99,12 @@ function toggleDropdown() {
         
     <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center text-[#ffcf40] text-lg">
         <a href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC" class="block text-s text-white hover:underline">
-            <img src="{BUY_LOGO}" alt="Button Logo" class="mx-auto h-20 w-auto mb-2" />                
+            <img src="{BUY_LOGO}" alt="buy Logo" class="mx-auto h-20 w-auto mb-2" />                
         </a>
     </div>
     <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center text-[#ffcf40] text-lg">
         <a href="/inactive" class="block text-s text-white hover:underline">
-            <img src="{MINER_LOGO}" alt="Miners Logo" class="mx-auto h-20 w-auto mb-2" />  
+            <img src="{Staking_LOGO}" alt="staking Logo" class="mx-auto h-20 w-auto mb-2" />  
         </a>
     </div>
     <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center text-[#ffcf40] text-xlg">
