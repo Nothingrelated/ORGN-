@@ -205,7 +205,7 @@ function toggleDropdown() {
         <img src="" class="mx-auto h-20 mb-2" alt="" />   
     </div>
     <div class="mx-auto flex items-center justify-center">
-        <a href=" " target="_blank" class="mx-2">
+        <a href="https://twitter.com/CHAD_EMP" target="_blank" class="mx-2">
             <img src={TWITTER_ICON} class="w-16 inline" alt="Follow on Twitter" />
         </a>
         <div class="mx-2">
@@ -215,7 +215,7 @@ function toggleDropdown() {
             <span class="mx-1">&bull;</span> <!-- Bullet separator -->
             All Rights Reserved
         </div>
-        <a href=" " target="_blank" class="mx-2">
+        <a href="https://t.me/oregonmoney" target="_blank" class="mx-2">
             <img src={TELEGRAM_ICON} class="w-16 inline" alt="Join Telegram" />
         </a>
     </div>
