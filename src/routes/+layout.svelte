@@ -97,13 +97,13 @@ function toggleDropdown() {
 <!-- Main Content -->
 <div class="mx-auto text-center w-full md:w-fit space-x-0 md:space-x-2 space-y-1 md:space-y-0 flex flex-col md:flex-row" style="box-shadow: 0 0 20px #00FFFF;">
         
-    <div class="border-2 border-[#ffcf40] bg-transparent rounded-lg w-full md:w-44 h-20 flex items-center justify-center ">
+    <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center ">
         <a href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC" class="block text-s text-white hover:underline">
             <img src="{BUY_LOGO}" alt="buy Logo" class="mx-auto h-20 w-auto mb-2 rounded-full" />
         </a>
     </div>
-    <div class="border-2 border-[#ffcf40] bg-transparent rounded-lg w-full md:w-44 h-20 flex items-center justify-center ">
-        <a href="/inactive" class="block text-s text-white hover:underline">
+    <div class="border-2 border-[#ffcf40] bg-[#000000a3] rounded-lg w-full md:w-44 h-20 flex items-center justify-center ">
+        <a href="/staking" class="block text-s text-white hover:underline">
             <img src="{Staking_LOGO}" alt="staking Logo" class="mx-auto h-20 w-auto mb-2 rounded-full" />  
         </a>
     </div>
