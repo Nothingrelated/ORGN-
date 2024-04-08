@@ -1,5 +1,5 @@
 
-export const DAPP_URL = " ";
+export const DAPP_URL = "https://oregonmoney.org/";
 export const DAPP_TITLE = "Oregon Money";
 
 export const networkChainId = 369;
