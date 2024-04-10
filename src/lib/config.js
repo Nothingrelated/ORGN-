@@ -126,6 +126,23 @@ export let farms = [
     },
 
     {
+        orderById: 6,
+        displayName: 'EMP/PLS v2',
+        lpAbbreviation: 'LP',
+        poolId: 5,
+        stakingToken: '0xC45f591abbeFC4e96b15e819561A26947c058B4D',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/add/V2/0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A/PLS',
+        depositFee: 1,
+        withdrawFee: 1,
+        poolWeight: 2,
+        isActive: true,
+        compound: false,
+        zaps: false,
+        type: Types.farm,
+        oracle: Oracles.PULSEX_V2
+    },
+
+    {
         orderById: 1,
         displayName: 'ORGN',
         lpAbbreviation: 'ORGN',
@@ -166,23 +183,6 @@ export let farms = [
         poolId: 7,
         stakingToken: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/?outputCurrency=0x6B175474E89094C44Da98b954EedeAC495271d0F',
-        depositFee: 1,
-        withdrawFee: 1,
-        poolWeight: 2,
-        isActive: true,
-        compound: false,
-        zaps: false,
-        type: Types.Pool,
-        oracle: Oracles.PULSEX_V2
-    },
-
-    {
-        orderById: 4,
-        displayName: 'EMP',
-        lpAbbreviation: 'EMP',
-        poolId: 8,
-        stakingToken: '0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/?outputCurrency=0x9231937aC31506B6913ac5fb1DB5a1C1AE83783A',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
