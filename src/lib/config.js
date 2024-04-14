@@ -138,7 +138,7 @@ export let farms = [
         isActive: true,
         compound: false,
         zaps: false,
-        type: Types.farm,
+        type: Types.Farm,
         oracle: Oracles.PULSEX_V2
     },
 
