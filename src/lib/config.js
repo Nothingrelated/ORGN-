@@ -4,9 +4,9 @@ export const DAPP_TITLE = "Oregon Money";
 
 export const networkChainId = 369;
 
-export const MASTERCHEF_ADDRESS = " ";
+export const MASTERCHEF_ADDRESS = "0x43e1AE8B0EBb5F7F146C6ffCd30C0A538f11ACa2";
 export const NATIVE_TOKEN_ADDRESS = "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"; //WPLS
-export const FARM_TOKEN_ADDRESS = " "; //Yield 
+export const FARM_TOKEN_ADDRESS = "0x2f777ACc40A4C87447E8ab818C1595c2e2CB0dcc"; //Yield 
 export const STABLECOIN_ADDRESS = "0xefD766cCb38EaF1dfd701853BFCe31359239F305"; //DAI
 export const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 export const DEAD_ADDRESS = "0x000000000000000000000000000000000000dEaD";
@@ -45,8 +45,8 @@ export let farms = [
         displayName: 'CALI/PLS v2',
         lpAbbreviation: 'LP ',
         poolId: 0,
-        stakingToken: ' ',
-        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/add/V2/0x898515c05794e195b4BA11c3e4e5A6d3c2a44FeC/PLS',
+        stakingToken: '0x92EB1dFfd1C0beb07D8020dBC1f8146B40a572d4',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/add/V2/PLS/0x2f777ACc40A4C87447E8ab818C1595c2e2CB0dcc',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 5,
@@ -151,7 +151,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/?outputCurrency=0x160Aaea031006C125F8Be4A00f77AC5010BECB3c',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 2,
+        poolWeight: 1,
         isActive: true,
         compound: false,
         zaps: false,
@@ -168,7 +168,7 @@ export let farms = [
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/?outputCurrency=0xd687FF2C9C5294f4A2bC0300B46eA921dB312063',
         depositFee: 1,
         withdrawFee: 1,
-        poolWeight: 2,
+        poolWeight: 1,
         isActive: true,
         compound: false,
         zaps: false,
