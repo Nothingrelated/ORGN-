@@ -143,6 +143,23 @@ export let farms = [
     },
 
     {
+        orderById: 7,
+        displayName: 'TRUMP/PLS v2',
+        lpAbbreviation: 'LP ',
+        poolId: 9,
+        stakingToken: '0xbda3bb126c5cf9eb6092acadd20792f89b37c873',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/add/V2/PLS/0x7DC5080495844BDBAFA0E8cbb82590F6A51a2eCE',
+        depositFee: 1,
+        withdrawFee: 1,
+        poolWeight: 2,
+        isActive: true,
+        compound: false,
+        zaps: false,
+        type: Types.Farm,
+        oracle: Oracles.PULSEX_V2
+    },
+
+    {
         orderById: 1,
         displayName: 'ORGN',
         lpAbbreviation: 'ORGN',
@@ -192,6 +209,8 @@ export let farms = [
         type: Types.Pool,
         oracle: Oracles.PULSEX_V2
     }
+
+    
 
 
 ]
