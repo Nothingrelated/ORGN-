@@ -160,6 +160,41 @@ export let farms = [
     },
 
     {
+        orderById: 8,
+        displayName: 'NOTG/PLS v2',
+        lpAbbreviation: 'LP ',
+        poolId: 11,
+        stakingToken: '0x0e1b93854D7988Fa2d2E06b74560CB9F9ae48949',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/add/V2/PLS/0x3F7054e1490ca6E51A4CBd654F5a360635a9b91B',
+        depositFee: 1,
+        withdrawFee: 1,
+        poolWeight: 2,
+        isActive: true,
+        compound: false,
+        zaps: false,
+        type: Types.Farm,
+        oracle: Oracles.PULSEX_V2
+    },
+
+    {
+        orderById: 9,
+        displayName: 'PLSPUP/PLS v2',
+        lpAbbreviation: 'LP ',
+        poolId: 12,
+        stakingToken: '0x6E649BE4ABdA660519baB8AB760001EC1663BD16',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/add/V2/PLS/0xe3B3f5F95d263edc6A5e3D4b7314728A390a4342',
+        depositFee: 1,
+        withdrawFee: 1,
+        poolWeight: 2,
+        isActive: true,
+        compound: false,
+        zaps: false,
+        type: Types.Farm,
+        oracle: Oracles.PULSEX_V2
+    },
+
+
+    {
         orderById: 1,
         displayName: 'ORGN',
         lpAbbreviation: 'ORGN',
@@ -200,6 +235,23 @@ export let farms = [
         poolId: 8,
         stakingToken: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
         liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/?outputCurrency=0x6B175474E89094C44Da98b954EedeAC495271d0F',
+        depositFee: 1,
+        withdrawFee: 1,
+        poolWeight: 2,
+        isActive: true,
+        compound: false,
+        zaps: false,
+        type: Types.Pool,
+        oracle: Oracles.PULSEX_V2
+    },
+
+    {
+        orderById: 4,
+        displayName: 'LDJT',
+        lpAbbreviation: 'LDJT',
+        poolId: 10,
+        stakingToken: '0xb79C22174C1E1F5d78419687E6002D4E25f17307',
+        liquidityLink: 'https://pulsex.mypinata.cloud/ipfs/bafybeiesh56oijasgr7creubue6xt5anivxifrwd5a5argiz4orbed57qi/#/?outputCurrency=0xb79C22174C1E1F5d78419687E6002D4E25f17307',
         depositFee: 1,
         withdrawFee: 1,
         poolWeight: 2,
